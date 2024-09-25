@@ -623,7 +623,7 @@ nav{
     color: rgb(126, 126, 126);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
 
     .benefits-content{
         display: flex;
@@ -740,7 +740,7 @@ nav{
     text-align: justify;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
 
     .curriculum-content{
         display: flex;
@@ -759,7 +759,9 @@ nav{
     .curriculum-card1{
         flex-direction: column;
         align-items: flex-start;
-        border: 2px solid #a3632293;
+        border: 1px solid #a3632293;
+        padding: 5px;
+        border-radius: 10px;
     }
 
     .curriculum-card-date{
@@ -774,3 +776,103 @@ nav{
     }
 
 }
+
+/* -------------------------------- */
+
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.teachers-content{
+    width: 690px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.teachers-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: #a36322;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teachers-all-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.teachers-card1{
+    width: 200px;
+}
+
+.teacher-img1{
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.t1{
+    background: url(./images/t1.jpg);
+    background-size: cover;
+}
+
+.t2{
+    background: url(./images/t2.jpg);
+    background-size: cover;
+}
+
+.t3{
+    background: url(./images/t3.jpg);
+    background-size: cover;
+}
+
+.teachers-card1 h3{
+    text-align: center;
+    padding: 17px 0px;
+    font-size: 18px;
+    font-family: comf;
+    font-weight: 600;
+    color: #a36322;
+}
+
+.teacher-text{
+    text-align: justify;
+    font-size: 12px;
+    font-family: comf;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.teacher-show-more{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    color: blue;
+    text-decoration: underline;
+    font-family: comf;
+}
+
+@media (max-width: 800px) {
+
+    .teachers-content{
+        width: 400px;
+    }
+
+    .teachers-all-cards{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+
+}
+
+/* -------------------------------- */
+

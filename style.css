@@ -876,3 +876,139 @@ nav{
 
 /* -------------------------------- */
 
+.students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.students-content{
+    width: 690px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.students-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: #a36322;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.students-all-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.student-card1{
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.student-card-img-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.student-card-img-name h4{
+    font-size: 16px;
+    font-family: comf;
+    color: rgb(2, 2, 72);
+    font-weight: 600;
+}
+
+.student-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.s1{
+    background: url(./images/s1.jpg);
+    background-size: cover;
+}
+
+.s2{
+    background: url(./images/s2.jpg);
+    background-size: cover;
+}
+
+.s3{
+    background: url(./images/s3.jpg);
+    background-size: cover;
+}
+
+.s4{
+    background: url(./images/s4.jpg);
+    background-size: cover;
+}
+
+.s5{
+    background: url(./images/s5.jpg);
+    background-size: cover;
+}
+
+.student-text{
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    font-family: comf;
+}
+
+.student-pages{
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    background-color: rgba(91, 91, 91, 0.385);
+    font-family: comf;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.page1{
+    background-color: #a36322;
+    color: white;
+}
+
+@media (max-width: 800px) {
+
+    .students-content{
+        width: 400px;
+    }
+
+    .student-text{
+        padding: 0px 20px;
+    }
+
+    .student-card-img-name{
+        padding-bottom: 20px;
+    }
+
+}

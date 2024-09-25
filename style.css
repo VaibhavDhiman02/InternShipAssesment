@@ -408,7 +408,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .all-cards{
@@ -465,6 +465,85 @@ nav{
         gap: 10px;
     }
 
+}
+
+/* -------------------------------- */
+
+.why-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-content{
+    width: 690px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.why-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: #a36322;
+    margin-bottom: 20px;
+}
+
+.why-all-card{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.why-card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #a3632219;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.why-card1-img{
+    height: 100px;
+    width: 100px;
+    background: url(./images/why1.jpg);
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.img2{
+    background: url(./images/why2.jpg);
+    background-size: cover;
+}
+
+.img3{
+    background: url(./images/why3.jpg);
+    background-size: cover;
+}
+
+.img4{
+    background: url(./images/why4.jpg);
+    background-size: cover;
+}
+
+.why-card1-content{
+    width: 80%;
+    font-family: comf;
+    font-size: 13px;
+}
+
+.point-1{
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(2, 2, 72);
+}
+
+.point-text{
+    color: rgb(113, 113, 113);
 }
 
 /* -------------------------------- */

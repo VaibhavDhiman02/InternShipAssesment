@@ -1012,3 +1012,485 @@ nav{
     }
 
 }
+
+/* -------------------------------- */
+
+.faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.faqs-content{
+    width: 690px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faqs-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: #a36322;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faqs-img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    background: url(./images/faqs.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    margin: 50px auto;
+}
+
+details {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.154);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 0.3s ease;
+}
+
+details[open] {
+    background-color: white;
+}
+
+summary {
+    font-family: comf;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(2, 2, 72);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    outline: none;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 15px;
+}
+
+summary::marker {
+    display: none;
+}
+
+summary::after {
+    content: url(./images/angle-up-solid.svg);
+    height: 11px;
+    width: 11px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgba(130, 130, 255, 0.598);
+    position: absolute;
+    right: 0;
+    transition: transform 0.1s ease;
+}
+
+details[open] summary::after {
+    content: url(./images/angle-up-solid.svg);
+    transform: rotate(180deg);
+}
+
+details p{
+    font-size: 12px;
+    font-family: comf;
+    color: #555;
+    margin-top: 15px;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+.load-more{
+    color: #a36322;
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+
+    .faqs-content{
+        width: 400px;
+    }
+
+}
+
+/* -------------------------------- */
+
+.consulted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conselted-content{
+    width: 690px;
+    background-color: rgb(179, 9, 77);
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conselted-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conselted-content h4{
+    margin-top: -15px;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: comf;
+    text-align: center;
+}
+
+.yellow-color{
+    color: #ffee00;
+}
+
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 530px;
+}
+
+.name-email input{
+    width: 255px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: comf;
+    font-size: 12px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.numb{
+    border-radius: 0px 20px 20px 0px;
+    padding: 10.5px;
+    width: 168px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: comf;
+    font-size: 12px;
+}
+
+.loc{
+    width: 255px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: comf;
+    font-size: 12px;
+}
+
+select{
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: comf;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin-right: -5px;
+}
+
+option{
+    color: black;
+}
+
+.message{
+    width: 97%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-family: comf;
+    font-size: 12px;
+}
+
+.check-box{
+    width: 95%;
+}
+
+.check-box label{
+    color: white;
+    font-family: comf;
+    font-size: 12px;
+}
+
+form button{
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: comf;
+    font-size: 13px;
+    border: none;
+}
+
+@media (max-width: 800px) {
+
+    .conselted-content{
+        width: 400px;
+    }
+
+    form{
+        width: 380px;
+    }
+
+    .name-email input{
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .numb{
+        width: 292px;
+        margin-bottom: 20px;
+    }
+
+    .loc{
+        width: 380px;
+    }
+
+}
+
+/* -------------------------------- */
+
+.who-for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.who-for-content{
+    width: 690px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.who-for-content h2{
+    font-family: comf;
+    font-size: 30px;
+    color: #a36322;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.who-for-all-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.who-for-card1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    width: 300px;
+}
+
+.who-for-card1 i{
+    font-size: 40px;
+}
+
+.who-for-card1 h5{
+    font-size: 16px;
+    font-family: comf;
+    color: rgb(2, 2, 72);
+}
+
+.who-for-card1 p{
+    font-size: 13px;
+    font-family: comf;
+    color: rgb(76, 76, 76);
+}
+
+@media (max-width: 800px) {
+
+    .who-for-content{
+        width: 400px;
+    }
+
+    .who-for-all-cards{
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+
+    .who-for-card1{
+        border: 1px solid rgba(0, 0, 0, 0.163);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+}
+
+/* -------------------------------- */
+
+footer{
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.all-footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #ff9a3511;
+    padding: 20px;
+}
+
+.logo-footer{
+    width: 300px;
+}
+
+.logo-footer p{
+    font-size: 11px;
+    font-family: comf;
+    width: 270px;
+    margin-top: 5px;
+}
+
+.connect{
+    width: 300px;
+}
+
+.connect h3{
+    color: rgb(77, 77, 77);
+    font-family: comf;
+    font-size: 20px;
+}
+
+.connect h6{
+    color: rgb(77, 77, 77);
+    font-family: comf;
+    font-size: 12pxpx;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.comm{
+    display: flex;
+    gap: 10px;
+}
+
+.comm span{
+    font-size: 25px;
+}
+
+.comm p{
+    margin-top: 4px;
+    font-size: 11px;
+    font-family: comf;
+    color: #555;
+}
+
+.addresses p{
+    padding-left: 6px;
+}
+
+.request-call{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.request-call h3{
+    color: rgb(77, 77, 77);
+    font-family: comf;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.request-call input{
+    width: 300px;
+    padding: 7px;
+    border:1px solid #68340070;
+}
+
+.request-call input::placeholder{
+    color: #555;
+}
+
+.request-call button{
+    width: 300px;
+    padding: 7px;
+    background-color: #683400c8;
+    border: none;
+    color: white;
+}
+
+@media (max-width: 800px) {
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .all-footer-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+}
+
+/* -------------------------------------- */
+
+.copyright-line{
+    font-size: 13px;
+    font-family: comf;
+    padding: 30px;
+}

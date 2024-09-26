@@ -376,6 +376,10 @@ nav{
         align-items: center;
     }
 
+    .first-section{
+        height: 90vh;
+    }
+
     .intro-content{
         width: 85%;
     }
@@ -1494,3 +1498,6 @@ footer{
     font-family: comf;
     padding: 30px;
 }
+
+
+
